@@ -43,7 +43,7 @@ export default function Home() {
             <div id="About" className="font-roboto text-lg font-bold bg-black max-w-full text-white space-y-12">
                 <div className="max-w-full p-8 text-black bg-white">
                     {/* Heading and Introduction */}
-                    <h2 ref={headingRef} className="text-4xl font-extrabold drop-shadow-md mb-6 text-center opacity-0">Welcome to Ink House Studios</h2>
+                    <h2 ref={headingRef} className="text-4xl font-fancy font-extrabold drop-shadow-md mb-6 text-center opacity-0">Welcome to Ink House Studios</h2>
                     <p ref={textRef} className="mb-4 font-bold drop-shadow-lg text-center opacity-0">
                         Start your journey or fulfil your ambition at our studios, no matter what style, size or concept you have in mind.
                         Our elite artists respect your skin and will work with you to create a unique piece that you will be proud of, forever.
@@ -63,7 +63,7 @@ export default function Home() {
 
                 {/* Additional Description */}
                 <div ref={additionalTextRef} className="max-w-full p-8 text-black bg-white">
-                    <h2 className='text-4xl font-bold mb-6 text-center'>Fine Line Tattoo Studio</h2>
+                    <h2 className='text-4xl font-fancy font-bold mb-6 text-center'>Fine Line Tattoo Studio</h2>
                     <p className="mb-4 text-center p-8">
                         Ink House Tattoo Studio is the leading fine line tattoo specialists in Dublin.
                         Our artists are very skilled in this form of tattoo body art and will be able to work on any fine
