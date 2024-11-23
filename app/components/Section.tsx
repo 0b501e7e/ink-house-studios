@@ -5,7 +5,7 @@ type SectionProps = {
     type: 'imageBackground' | 'imageWithText' | 'textOverlay';
     imageUrl: string;
     heading?: string;
-    text?: string;
+    text?: React.ReactNode;
     overlayText?: string;
     alignment?: 'left' | 'right' | 'center';
 };
@@ -33,7 +33,15 @@ const Section: React.FC<SectionProps> = ({
                         <div className="absolute inset-0 z-10 flex items-center justify-center">
                             <div className="p-4 text-center">
                                 {heading && <h2 className="text-4xl font-bold">{heading}</h2>}
-                                {text && <p className="text-xl">{text}</p>}
+                                {text && (
+                                    <div className='max-w-full'>
+                                        <div className="max-w-3xl mx-auto px-4 py-16">
+                                            <p className="text-lg leading-relaxed text-center text-white [text-shadow:_2px_2px_8px_rgb(0_0_0_/_80%)]">
+                                                {text}
+                                            </p>
+                                        </div>
+                                    </div>
+                                )}
                             </div>
                         </div>
                     </div>

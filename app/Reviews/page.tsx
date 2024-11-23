@@ -3,7 +3,7 @@ import { FaStar } from 'react-icons/fa'; // Import star icon from react-icons
 
 const Reviews = () => {
   return (
-    <div className="max-w-full p-8 text-white bg-black">
+    <div className="max-w-full min-h-screen p-8 text-white bg-black">
       <h2 className="text-3xl font-bold text-center mb-8">Here is what our customers have to say</h2>
       
       <div className="flex justify-center mb-4">

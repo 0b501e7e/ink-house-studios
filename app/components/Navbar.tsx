@@ -27,7 +27,7 @@ export default function Navbar() {
                         <Link href="/Artists" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Artists</span></Link>
                         <Link href="/Reviews" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Reviews</span></Link>
                         <Link href="/Booking" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Booking</span></Link>
-                        <Link href="/Contact" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Contact Us</span></Link>
+                        <Link href="/Locations" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Locations</span></Link>
                     </div>
                 </div>
             </div>
@@ -39,7 +39,7 @@ export default function Navbar() {
                 <Link href="/Artists" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Artists</span></Link>
                 <Link href="/Reviews" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Reviews</span></Link>
                 <Link href="/Booking" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Booking</span></Link>
-                <Link href="/Contact" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Contact Us</span></Link>
+                <Link href="/Locations" passHref><span className="py-2 block text-center text-white hover:text-gray-300" onClick={() => setIsOpen(false)}>Locations</span></Link>
             </div>
         </nav>
     );

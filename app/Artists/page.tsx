@@ -4,48 +4,68 @@ import { FaInstagram, FaFacebookSquare, FaTwitter } from 'react-icons/fa';
 export default function Artists() {
     const artists = [
         {
-            name: 'Artist Name',
-            imageUrl: '/profile.webp',
-            instagram: '#',
+            name: 'Rachel',
+            imageUrl: '/profiles/photos/rachel.jpg',
+            instagram: 'https://www.instagram.com/raymoonshine_tattoos/',
             facebook: '#',
             twitter: '#',
         },
         {
-            name: 'Artist Name',
-            imageUrl: '/profile.webp',
-            instagram: '#',
+            name: 'Trixy',
+            imageUrl: '/profiles/photos/trixy.jpg',
+            instagram: 'https://www.instagram.com/tattoobyt/',
             facebook: '#',
             twitter: '#',
         },
         {
-            name: 'Artist Name',
-            imageUrl: '/profile.webp',
-            instagram: '#',
+            name: 'Megan',
+            imageUrl: '/profiles/photos/megan.jpg',
+            instagram: 'https://www.instagram.com/mf_ink_20/',
             facebook: '#',
             twitter: '#',
         },
         {
-            name: 'Artist Name',
-            imageUrl: '/profile.webp',
-            instagram: '#',
+            name: 'Gavin',
+            imageUrl: '/profiles/photos/gav.jpg',
+            instagram: 'https://www.instagram.com/gavtraceytattoos/',
             facebook: '#',
             twitter: '#',
         },
         {
-            name: 'Artist Name',
-            imageUrl: '/profile.webp',
-            instagram: '#',
+            name: 'Martina',
+            imageUrl: '/profiles/photos/martina.jpg',
+            instagram: 'https://www.instagram.com/martinav.art/',
             facebook: '#',
             twitter: '#',
         },
         {
-            name: 'Artist Name',
-            imageUrl: '/profile.webp',
-            instagram: '#',
+            name: 'Victoria',
+            imageUrl: '/profiles/photos/victoria.jpg',
+            instagram: 'https://www.instagram.com/victoria.sol_tattoo/',
             facebook: '#',
             twitter: '#',
         },
-
+        {
+            name: 'Bill',
+            imageUrl: '/profiles/photos/dude1.jpg',
+            instagram: 'https://www.instagram.com/ink.billl/',
+            facebook: '#',
+            twitter: '#',
+        },
+        {
+            name: 'Diego',
+            imageUrl: '/profiles/photos/dude2.jpg',
+            instagram: 'https://www.instagram.com/dmink.tattoo/',
+            facebook: '#',
+            twitter: '#',
+        },
+        {
+            name: 'Phil',
+            imageUrl: '/profiles/photos/dude3.jpg',
+            instagram: 'https://www.instagram.com/dapzink/',
+            facebook: '#',
+            twitter: '#',
+        }
 
     ];
 
@@ -59,8 +79,7 @@ export default function Artists() {
                         <h3 className="text-xl font-semibold mt-2">{artist.name}</h3>
                         <div className="flex space-x-2 mt-2">
                             <a href={artist.instagram}><FaInstagram /></a>
-                            <a href={artist.facebook}><FaFacebookSquare /></a>
-                            <a href={artist.twitter}><FaTwitter /></a>
+
                         </div>
                     </div>
                 ))}

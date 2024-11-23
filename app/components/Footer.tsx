@@ -25,9 +25,9 @@ const Footer: React.FC = () => {
 
                 {/* Social Buttons */}
                 <div className="flex justify-center space-x-2">
-                    <FaFacebookF className="h-6 w-6" />
-                    <FaInstagram className="h-6 w-6" />
-                    <FaEnvelope className="h-6 w-6" />
+                    <a href='https://facebook.com/inkhousestudios/'><FaFacebookF className="h-6 w-6" /></a>
+                    <a href='https://www.instagram.com/ink_house_studios/'><FaInstagram className="h-6 w-6" /></a>
+                    <a href='/Booking'><FaEnvelope className="h-6 w-6" /></a>
                 </div>
             </div>
         </footer>

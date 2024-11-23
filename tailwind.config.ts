@@ -8,7 +8,7 @@ const config: Config = {
   ],
   theme: {
     extend: {
-     
+
       fontFamily: {
         fancy: ['Dancing Script', 'cursive'],
         roboto: ['Roboto', 'sans-serif'],
@@ -18,6 +18,16 @@ const config: Config = {
           '0%': { opacity: '0' },
           '100%': { opacity: '1' },
         },
+        fadeIn: {
+          '0%': { opacity: '0' },
+          '100%': { opacity: '1' },
+        },
+
+        slideinLeft: {
+          '0%': { opacity: '0', transform: 'translateX(-100px)'},
+          '100%': { opacity: '1', transform: 'translateX(0)'},
+        },
+        
         slideInRight: {
           '0%': { opacity: '0', transform: 'translateX(50px)' },
           '100%': { opacity: '1', transform: 'translateX(0)' },
@@ -30,8 +40,17 @@ const config: Config = {
       animation: {
         fadeInUp: 'fadeInUp 3s ease-out forwards',
         fadeInFromBlack: 'fadeInFromBlack 5s ease-out forwards',
-
+        fadeIn: 'fadeIn 1s ease-in-out forwards',
+        slideInRight: 'slideInRight 5s ease-in-out forwards',
+        slideInLeft: 'slideinLeft 5s ease-in-out forwards',
       },
+      variants: {
+        extend: {
+          animation: ['responsive'],
+          visibility: ['group-hover'],
+        },
+      },
+
     },
   },
   plugins: [],
